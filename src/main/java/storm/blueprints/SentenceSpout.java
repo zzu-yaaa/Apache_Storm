@@ -25,10 +25,11 @@ public class SentenceSpout extends BaseRichSpout {
      * 스파우트 컴포넌트 초기화
      * @param map 스톰 설정 정보를 가짐
      * @param topologyContext 토폴로지에 속한 컴포넌트들의 정보를 가짐
-     * @param spoutOutputCollector 튜플을 내보낼 때 사용하는 메서드를 가짐
+     * @param collector 튜플을 내보낼 때 사용하는 메서드를 가짐
      * */
     @Override
-    public void open(Map<String, Object> map, TopologyContext topologyContext, SpoutOutputCollector spoutOutputCollector) {
+    public void open(Map<String, Object> map, TopologyContext topologyContext, SpoutOutputCollector collector) {
+        this.collector = collector;
     }
 
     /**
