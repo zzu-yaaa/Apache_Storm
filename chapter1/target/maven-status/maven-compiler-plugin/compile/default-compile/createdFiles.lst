@@ -1,0 +1,5 @@
+storm/blueprints/WordCountTopology.class
+storm/blueprints/WordCountBolt.class
+storm/blueprints/SentenceSpout.class
+storm/blueprints/SplitSentenceBolt.class
+storm/blueprints/ReportBolt.class
