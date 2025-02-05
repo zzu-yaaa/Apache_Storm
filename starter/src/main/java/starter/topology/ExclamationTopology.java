@@ -10,7 +10,7 @@
  * and limitations under the License.
  */
 
-package starter;
+package starter.topology;
 
 import java.util.Map;
 
